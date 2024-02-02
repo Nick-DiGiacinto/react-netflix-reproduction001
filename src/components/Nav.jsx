@@ -12,7 +12,7 @@ function NavbarComponent() {
         <Container fluid>
           <Navbar.Brand href="#home">
             <Image
-              src="./netflix_logo.png"
+              src="./innercomponents/netflix_logo.png"
               width="120"
               className="d-inline-block align-top"
               alt="logo"
@@ -50,7 +50,7 @@ function NavbarComponent() {
                 align={{ lg: "end", md: "end", sm: "end", xs: "end" }}
               >
                 <NavDropdown.Item href="#gestioni-profili">
-                  Gestione Profili
+                  Profile management
                 </NavDropdown.Item>
                 <NavDropdown.Item href="#account">Account</NavDropdown.Item>
                 <NavDropdown.Divider />
