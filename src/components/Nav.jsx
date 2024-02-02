@@ -12,10 +12,10 @@ function NavbarComponent() {
         <Container fluid>
           <Navbar.Brand href="#home">
             <Image
-              src="../assets/img/netflix_logo.png"
+              src="./netflix_logo.png"
               width="120"
               className="d-inline-block align-top"
-              alt=""
+              alt="logo"
               loading="lazy"
             />
           </Navbar.Brand>
@@ -28,7 +28,6 @@ function NavbarComponent() {
               <Nav.Link href="#film">Film</Nav.Link>
               <Nav.Link href="#nuovi-e-popolari">New</Nav.Link>
               <Nav.Link href="#la-mia-lista">My list</Nav.Link>
-              <Nav.Link href="#sfoglia-la-lingua">Select by languages</Nav.Link>
             </Nav>
           </Navbar.Collapse>
           <Navbar.Collapse id="basic-navbar-nav">
@@ -45,7 +44,7 @@ function NavbarComponent() {
               </Nav.Link>
               <NavDropdown
                 title={
-                  <Image src="./assets/img/avatar.png" width="30" height="30" />
+                  <Image src="./innercomponents/kids_icon.png" width="30" height="30" />
                 }
                 id="basic-nav-dropdown"
                 align={{ lg: "end", md: "end", sm: "end", xs: "end" }}
